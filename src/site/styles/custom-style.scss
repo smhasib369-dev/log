@@ -10,4 +10,183 @@ body {
     //  h1 {
     //   color: black;
     //  }
+
+    ```scss
+/* =========================================================
+   DIGITAL GARDEN — BANGLA TYPOGRAPHY
+   ========================================================= */
+
+/* ---------------------------------------------------------
+   Bengali fonts
+   --------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500;600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap');
+
+
+/* =========================================================
+   NORMAL CONTENT
+   p, li
+   English  → default font
+   Bangla   → Noto Serif Bengali
+   ========================================================= */
+
+p,
+li {
+    font-family:
+        var(--font-default),
+        "Noto Serif Bengali",
+        sans-serif;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   BLOCKQUOTE
+   Bangla → Noto Serif Bengali
+   ========================================================= */
+
+blockquote {
+    font-family:
+        var(--font-default),
+        "Noto Serif Bengali",
+        sans-serif;
+
+    line-height: 1.85;
+}
+
+
+/* =========================================================
+   CALLOUT
+   ========================================================= */
+
+.callout,
+.callout-title,
+.callout-content {
+    font-family:
+        var(--font-default),
+        "Noto Serif Bengali",
+        sans-serif;
+
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   HEADINGS
+   Bangla → Noto Sans Bengali
+   Different from paragraph font
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:
+        var(--font-default),
+        "Noto Sans Bengali",
+        sans-serif;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   CODE
+   Bangla → Noto Serif Bengali
+   English/code → monospace
+   ========================================================= */
+
+code,
+pre,
+pre code,
+.cm-inline-code {
+    font-family:
+        var(--font-monospace),
+        "Noto Serif Bengali",
+        monospace;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   TABLE
+   ========================================================= */
+
+table,
+th,
+td {
+    font-family:
+        var(--font-default),
+        "Noto Serif Bengali",
+        sans-serif;
+
+    line-height: 1.75;
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a {
+    font-family:
+        var(--font-default),
+        "Noto Serif Bengali",
+        sans-serif;
+}
+
+
+/* =========================================================
+   LIST
+   ========================================================= */
+
+ul,
+ol {
+    font-family:
+        var(--font-default),
+        "Noto Serif Bengali",
+        sans-serif;
+}
+
+
+/* =========================================================
+   LARGE FONT CLASS
+   ========================================================= */
+
+.font-bg {
+    font-family:
+        var(--font-default),
+        "Noto Serif Bengali",
+        sans-serif;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   BETTER BANGLA RENDERING
+   ========================================================= */
+
+p,
+li,
+blockquote,
+.callout,
+.callout-content,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+```
+
 }
